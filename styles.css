@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+article a {
+    text-decoration: none;
+    color: #0074D9;
+    font-weight: bold;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    font-size: 14px;
+}
